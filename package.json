@@ -1,0 +1,32 @@
+{
+  "name": "40k-namegen",
+  "version": "1.0.0",
+  "description": "A tool for generating epic, grimdark names inspired by the Warhammer 40k universe.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hinga2019/40k-namegen.git"
+  },
+  "keywords": [
+    "warhammer",
+    "name-generator",
+    "grimdark",
+    "npm-example"
+  ],
+  "author": "Hernán Manuel Inga Arteaga <hm_inga@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Hinga2019/40k-namegen/issues"
+  },
+  "homepage": "https://github.com/Hinga2019/40k-namegen#readme",
+  "bin": {
+    "40k-namegen": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "dependencies": {
+    "yargs": "^17.7.2"
+  }
+}
